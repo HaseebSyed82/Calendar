@@ -1,0 +1,30 @@
+{
+  "name": "esbuild-reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "esbuild": "^0.5.14",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-availability-calendar": "^0.3.13",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.13.1",
+    "react-dropdown": "^1.9.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^4.1.0",
+    "static-here": "^1.0.0"
+  }
+}

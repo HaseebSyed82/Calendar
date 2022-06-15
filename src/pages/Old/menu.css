@@ -1,0 +1,309 @@
+.rgstr {
+  display: inline-block;
+  width: 175px;
+  text-align: right;
+  padding-right: 5px;
+  font: italic small-caps bold 14px/30px Arial, sans-serif;
+}
+
+#label2 {
+  display: inline-block;
+  width: 175px;
+  text-align: right;
+  padding-right: 5px;
+  font: italic small-caps bold 14px/30px Arial, sans-serif;
+}
+
+.reginput {
+  width: 400px;
+}
+
+
+.wLbl {
+  text-align: left;
+  width: 500px;
+}
+
+.wLbl2 {
+  text-align: left;
+  width: 170px;
+}
+.wLbl3 {
+  text-align: left;
+  width: 330px;
+}
+
+.error {
+  color:#db2269;
+  font-size: 0.625em;
+  display: relative;
+}
+
+#h12 {
+  font-family: Lato;
+}
+
+#ul2 {
+  padding: 0;
+  margin:10px 0 0 0;
+}
+#li2 {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  background-color:rgba(61, 120, 175, 0.411);
+  border-radius: 10px;
+}
+#form2 {
+  margin: 10px;
+}
+
+#appt {
+  width: 400px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#add2 {
+  display: inline-block;
+  background-color: white;
+  color: rgb(255, 0, 0); 
+  position: relative;
+  left: 20px;
+  width: 150px;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button{
+  background-color: #F5F5F5;
+  border-radius: 12px;
+  border: 2px solid rgb(0, 162, 255);
+  color: rgb(0, 162, 255);
+
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 4px;
+
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+
+  position: relative;
+
+  text-align: center;
+  text-emphasis: bold;
+  width: 130px;
+}
+
+#add {
+
+  left: 10px;
+  position: relative;
+  width: 75px;
+
+}
+
+.widebtn {
+  left: 90px;
+  width: 250px;
+  position: relative;
+}
+
+.regbtn{
+  left: 175px;
+  margin: 12px 4px;
+
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+
+  position: relative;
+  width: 200px;
+}
+
+button:hover {
+  background-color: green;
+  color: white; 
+}
+
+.eBtn {
+  left: 60px;
+  margin: 12px 4px;
+  
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+
+  position: relative;
+  width: 225px;
+}
+
+
+
+#widebtn2 {
+  background-color: white;
+  color: rgb(255, 0, 0); 
+  border: 2px solid red;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-emphasis: bold;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 4px;
+  border-radius: 12px;
+  left: 110px;
+  width: 120px;
+}
+
+#widebtn3 {
+  background-color: white;
+  color: rgb(255, 0, 0); 
+  border: 2px solid red;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-emphasis: bold;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 4px;
+  border-radius: 12px;
+  left: 0px;
+  width: 110px;
+}
+
+.btn-link {
+  position: relative;
+  left: 0px;
+  width: 50px;
+}
+
+.btn-sm {
+  position: relative;
+  left: 0px;
+  width: 100px;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.Dropdown-root {
+  position: relative;
+}
+
+.Dropdown-control {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #333;
+  cursor: default;
+  outline: none;
+  padding: 8px 52px 8px 10px;
+  transition: all 200ms ease;
+}
+
+.Dropdown-control:hover {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.Dropdown-arrow {
+  border-color: #999 transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  content: ' ';
+  display: block;
+  height: 0;
+  margin-top: -ceil(2.5);
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  width: 0
+}
+
+.is-open .Dropdown-arrow {
+  border-color: transparent transparent #999;
+  border-width: 0 5px 5px;
+}
+
+.Dropdown-menu {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  margin-top: -1px;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 1000;
+  -webkit-overflow-scrolling: touch;
+}
+
+.Dropdown-menu .Dropdown-group > .Dropdown-title{
+  padding: 8px 10px;
+  color: rgba(51, 51, 51, 1);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.Dropdown-option {
+  box-sizing: border-box;
+  color: rgba(51, 51, 51, 0.8);
+  cursor: pointer;
+  display: block;
+  padding: 8px 10px;
+}
+
+.Dropdown-option:last-child {
+  border-bottom-right-radius: 2px;
+   border-bottom-left-radius: 2px;
+}
+
+.Dropdown-option:hover {
+  background-color: #f2f9fc;
+  color: #333;
+}
+
+.Dropdown-option.is-selected {
+  background-color: #f2f9fc;
+  color: #333;
+}
+
+.Dropdown-noresults {
+  box-sizing: border-box;
+  color: #ccc;
+  cursor: default;
+  display: block;
+  padding: 8px 10px;
+}
+
+body {
+   background-color: #F5F5F5
+}
